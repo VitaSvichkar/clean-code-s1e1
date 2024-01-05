@@ -5,10 +5,53 @@ body {
   font-family: Lato, sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+.wrap {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+
+}
+
+>>>>>>> c61ac06 (refactor(extended-2.1, 1.1, 1.2): use BEM, add semantic elements, add alt for img)
 img {
   width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.header{
+  text-align: right;
+}
+
+.header__link {
+  font-family: fantasy, cursive;
+}
+
+@media (max-width:768px) {
+  .header {
+    text-align: center;
+  }
+}
+
+.wrap{
+  /* display: block; */
+  width: 500px;
+  margin: 0 auto;
+}
+
+.task__input-text {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.task-row-wrapper {
+  display: flex;
+}
+
+>>>>>>> c61ac06 (refactor(extended-2.1, 1.1, 1.2): use BEM, add semantic elements, add alt for img)
 ul {
   margin: 0;
   padding: 0px;
@@ -148,6 +191,7 @@ button {
   width: 226px;
 } */
 
+<<<<<<< HEAD
 /* li > * {
   vertical-align: middle;
 } */
@@ -155,6 +199,20 @@ button {
 /* Completed */
 
 .task__completed .task__item-label{
+=======
+.task__button-delete img {
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
+}
+
+.task__button-delete img:hover {
+  transform: rotateZ(0);
+}
+
+/* Completed */
+.task__completed label {
+>>>>>>> c61ac06 (refactor(extended-2.1, 1.1, 1.2): use BEM, add semantic elements, add alt for img)
   text-decoration: line-through;
   color: #888;
 }
@@ -165,11 +223,19 @@ button {
   display: none;
 }
 
+<<<<<<< HEAD
 .task__edit-mode .task__input-text {
+=======
+ul .task__edit-mode input[type="text"] {
+>>>>>>> c61ac06 (refactor(extended-2.1, 1.1, 1.2): use BEM, add semantic elements, add alt for img)
   display: inline-block;
   width: 224px;
 }
 
+<<<<<<< HEAD
 .task__edit-mode .task__item-label {
+=======
+ul .task__edit-mode label {
+>>>>>>> c61ac06 (refactor(extended-2.1, 1.1, 1.2): use BEM, add semantic elements, add alt for img)
   display: none;
 }

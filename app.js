@@ -33,7 +33,11 @@ var createNewTaskElement=function(taskString){
     var deleteButtonImg=document.createElement("img");//delete button image
 
     label.innerText=taskString;
+<<<<<<< HEAD
     label.className='task__item-label';
+=======
+    label.className='task__checkbox';
+>>>>>>> c61ac06 (refactor(extended-2.1, 1.1, 1.2): use BEM, add semantic elements, add alt for img)
 
     //Each elements, needs appending
     listItem.className="task__item"
@@ -43,9 +47,15 @@ var createNewTaskElement=function(taskString){
     editInput.className="task__input-text";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
+<<<<<<< HEAD
     editButton.className="task__button-edit button";
 
     deleteButton.className="task__button-delete button";
+=======
+    editButton.className="task__button-edit";
+
+    deleteButton.className="task__button-delete";
+>>>>>>> c61ac06 (refactor(extended-2.1, 1.1, 1.2): use BEM, add semantic elements, add alt for img)
     deleteButtonImg.src='./remove.svg';
     deleteButton.appendChild(deleteButtonImg);
 
